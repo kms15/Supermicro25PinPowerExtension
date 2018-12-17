@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x25_Row_Letter_First J?
+L Connector_Generic:Conn_02x25_Row_Letter_First J1
 U 1 1 5C0D7C6F
 P 2750 3000
-F 0 "J?" H 2800 4417 50  0000 C CNN
+F 0 "J1" H 2800 4417 50  0000 C CNN
 F 1 "Amphenol 10035388-102LF" H 2800 4326 50  0000 C CNN
-F 2 "" H 2750 3000 50  0001 C CNN
+F 2 "SupermicroConnectors:Amphenol_10035388-102LF" H 2750 3000 50  0001 C CNN
 F 3 "~" H 2750 3000 50  0001 C CNN
 	1    2750 3000
 	1    0    0    -1  
@@ -530,45 +530,45 @@ Connection ~ 4200 6450
 Wire Wire Line
 	4200 6450 4200 6500
 $Comp
-L Connector_Generic:Conn_01x16 J?
+L Connector_Generic:Conn_01x16 J2
 U 1 1 5C17DCF5
 P 5400 2500
-F 0 "J?" H 5400 3450 50  0000 C CNN
+F 0 "J2" H 5400 3450 50  0000 C CNN
 F 1 "1862262" H 5400 3350 50  0000 C CNN
-F 2 "" H 5400 2500 50  0001 C CNN
+F 2 "PhoenixContact:PhoenixContact1862262" H 5400 2500 50  0001 C CNN
 F 3 "~" H 5400 2500 50  0001 C CNN
 	1    5400 2500
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x16 J?
+L Connector_Generic:Conn_01x16 J3
 U 1 1 5C17DD8D
 P 6300 2500
-F 0 "J?" H 6300 3450 50  0000 C CNN
+F 0 "J3" H 6300 3450 50  0000 C CNN
 F 1 "1862262" H 6300 3350 50  0000 C CNN
-F 2 "" H 6300 2500 50  0001 C CNN
+F 2 "PhoenixContact:PhoenixContact1862262" H 6300 2500 50  0001 C CNN
 F 3 "~" H 6300 2500 50  0001 C CNN
 	1    6300 2500
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x16 J?
+L Connector_Generic:Conn_01x16 J4
 U 1 1 5C17DDDA
 P 7150 2500
-F 0 "J?" H 7150 3450 50  0000 C CNN
+F 0 "J4" H 7150 3450 50  0000 C CNN
 F 1 "1862262" H 7150 3350 50  0000 C CNN
-F 2 "" H 7150 2500 50  0001 C CNN
+F 2 "PhoenixContact:PhoenixContact1862262" H 7150 2500 50  0001 C CNN
 F 3 "~" H 7150 2500 50  0001 C CNN
 	1    7150 2500
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x16 J?
+L Connector_Generic:Conn_01x16 J5
 U 1 1 5C17DE4E
 P 7950 2500
-F 0 "J?" H 7950 3450 50  0000 C CNN
+F 0 "J5" H 7950 3450 50  0000 C CNN
 F 1 "1862262" H 7950 3350 50  0000 C CNN
-F 2 "" H 7950 2500 50  0001 C CNN
+F 2 "PhoenixContact:PhoenixContact1862262" H 7950 2500 50  0001 C CNN
 F 3 "~" H 7950 2500 50  0001 C CNN
 	1    7950 2500
 	1    0    0    1   
@@ -966,34 +966,34 @@ B22
 Wire Wire Line
 	5200 3200 4800 3200
 $Comp
-L NE12S0A0V10PNF:NE12S0A0V10PNF U?
+L NE12S0A0V10PNF:NE12S0A0V10PNF U1
 U 1 1 5C4F45DB
 P 6500 5300
-F 0 "U?" H 6500 5865 50  0000 C CNN
-F 1 "NE12S0A0V10PNF" H 6500 5774 50  0000 C CNN
-F 2 "" H 6500 5300 50  0001 C CNN
+F 0 "U1" H 6500 5865 50  0000 C CNN
+F 1 "NE12S0A0V10" H 6500 5774 50  0000 C CNN
+F 2 "Delta:Delta_NE12S0A0V10" H 6500 5300 50  0001 C CNN
 F 3 "" H 6500 5300 50  0001 C CNN
 	1    6500 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5C50E3E1
 P 7100 5350
-F 0 "R?" H 7170 5396 50  0000 L CNN
+F 0 "R1" H 7170 5396 50  0000 L CNN
 F 1 "268" H 7170 5305 50  0000 L CNN
-F 2 "" V 7030 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 5350 50  0001 C CNN
 F 3 "~" H 7100 5350 50  0001 C CNN
 	1    7100 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5C50E459
 P 7500 5350
-F 0 "C?" H 7615 5396 50  0000 L CNN
+F 0 "C2" H 7615 5396 50  0000 L CNN
 F 1 "10uF" H 7615 5305 50  0000 L CNN
-F 2 "" H 7538 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7538 5200 50  0001 C CNN
 F 3 "~" H 7500 5350 50  0001 C CNN
 	1    7500 5350
 	1    0    0    -1  
@@ -1021,12 +1021,12 @@ F 3 "" H 7500 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5C50E64A
 P 5700 5350
-F 0 "C?" H 5815 5396 50  0000 L CNN
+F 0 "C1" H 5815 5396 50  0000 L CNN
 F 1 "10uF" H 5815 5305 50  0000 L CNN
-F 2 "" H 5738 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 5200 50  0001 C CNN
 F 3 "~" H 5700 5350 50  0001 C CNN
 	1    5700 5350
 	1    0    0    -1  
@@ -1064,8 +1064,6 @@ Wire Wire Line
 	6900 5100 7100 5100
 Wire Wire Line
 	7100 5100 7100 5200
-Wire Wire Line
-	6950 5000 7500 5000
 Wire Wire Line
 	7500 5000 7500 4800
 Wire Wire Line
@@ -1108,4 +1106,82 @@ Wire Wire Line
 Wire Wire Line
 	5700 5600 5700 5800
 Connection ~ 5700 5600
+Wire Wire Line
+	6900 5000 7500 5000
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C1870CC
+P 8800 4100
+F 0 "H1" H 8900 4151 50  0000 L CNN
+F 1 "M3" H 8900 4060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8800 4100 50  0001 C CNN
+F 3 "~" H 8800 4100 50  0001 C CNN
+	1    8800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C1871C6
+P 9100 4100
+F 0 "H2" H 9200 4151 50  0000 L CNN
+F 1 "M3" H 9200 4060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9100 4100 50  0001 C CNN
+F 3 "~" H 9100 4100 50  0001 C CNN
+	1    9100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C18726C
+P 9400 4100
+F 0 "H3" H 9500 4151 50  0000 L CNN
+F 1 "M3" H 9500 4060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9400 4100 50  0001 C CNN
+F 3 "~" H 9400 4100 50  0001 C CNN
+	1    9400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C1872D8
+P 9700 4100
+F 0 "H4" H 9800 4151 50  0000 L CNN
+F 1 "M3" H 9800 4060 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9700 4100 50  0001 C CNN
+F 3 "~" H 9700 4100 50  0001 C CNN
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5C19698B
+P 9250 4400
+F 0 "#PWR0115" H 9250 4150 50  0001 C CNN
+F 1 "GND" H 9255 4227 50  0000 C CNN
+F 2 "" H 9250 4400 50  0001 C CNN
+F 3 "" H 9250 4400 50  0001 C CNN
+	1    9250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4200 8800 4300
+Wire Wire Line
+	8800 4300 9100 4300
+Wire Wire Line
+	9250 4300 9250 4400
+Wire Wire Line
+	9100 4200 9100 4300
+Connection ~ 9100 4300
+Wire Wire Line
+	9100 4300 9250 4300
+Wire Wire Line
+	9400 4200 9400 4300
+Wire Wire Line
+	9400 4300 9250 4300
+Connection ~ 9250 4300
+Wire Wire Line
+	9700 4200 9700 4300
+Wire Wire Line
+	9700 4300 9400 4300
+Connection ~ 9400 4300
 $EndSCHEMATC
