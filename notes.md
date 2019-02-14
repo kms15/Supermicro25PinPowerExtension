@@ -15,3 +15,27 @@
 ## connector layout
 Looking from front of case, 7+7 signal pins (top + bottom), then 9+9 pins
 of +12V (top + bottom), and finally 9+9 pins of ground (top + bottom)
+
+## Fan connector:
+There is what appears to be an 8 pin JST connector on a vertically mounted
+daughter board near the left edge of the card edge connector with a cable
+that connects to the twin fans. Disconnecting the cable causes the power
+supply to error on startup. Probing it with a multimeter shows the
+following: (numbering from the left/bottom pin of the fan connector on the pcb)
+
+1. ~200 Hz square wave (tachometer? 2 counts per cycle?)
+2. ~150 Hz square wave (tachometer? 2 counts per cycle?)
+3. +3 Vpp square wave ~30% duty cycle 50 kHz (PWM control?)
+4. +3 Vpp square wave ~30% duty cycle 50 kHz (PWM control?)
+5. 0V (ground?)
+6. 0V (ground?)
+7. +11.75V (power vs. power sense?)
+8. +12V (power?)
+
+Hypothesis: this is likely to be a variation of the standard 4 pin fan
+connector, in which case it should be possible to simulate a fan by connecting
+two NPN transistors with the collectors connected to pins 1 and 2, the emitters
+connected to ground/pins 5 and 6, and the gate connected to a ~200 Hz square
+wave. I would still need to provide sufficient airflow to keep the power supply
+cool at full load, of course (or, if that proves to be too noisy, use the PWM
+outputs from pin 3 & 4 to be able to ramp up the fan speed when needed).
